@@ -23,11 +23,13 @@ Bendywork's [as-sane-as-possible][azathoth] JavaScript toolset.
 - [Bower][bower] for client-side package management
 - [Mocha][mocha] for testing
 - [Grunt][grunt] for task-running
+- [Flow][flow] static type checker for JavaScript
 
   [node]: https://nodejs.org/
   [bower]: http://bower.io/
   [mocha]: http://mochajs.org/
   [grunt]: http://gruntjs.com/
+  [flow]: http://flowtype.org/
 
 ## Libraries
 
@@ -35,7 +37,9 @@ Bendywork's [as-sane-as-possible][azathoth] JavaScript toolset.
 - [transit.js][transit] for advanced data serialization
 - [mori.js][mori] for advanced functional JavaScript features (beyond
   Underscore or Lowdash)
+- [testcheck-js][testcheck] for writing generative/property-based tests
 
   [immutable]: https://github.com/facebook/immutable-js
   [transit]: https://github.com/cognitect/transit-js
   [mori]: https://github.com/swannodette/mori
+  [testcheck]: https://github.com/leebyron/testcheck-js
